@@ -30,7 +30,7 @@ public class mainActivity {
 	private static JTextField textField_Bottom;
 	private static JTextField textField_Top;
 
-	float mValueOne=1,mValueTwo, mValueAnswer, mValueP;
+	float mValueOne=0,mValueTwo=0, mValueAnswer=0, mValueP;
 	
 	boolean mAddition,mSubtract,mMultiplication,mDivision,mReciprocal,mSqrt,mPercent;
 	String button="off";
@@ -855,7 +855,7 @@ public class mainActivity {
 			public void actionPerformed(ActionEvent e) {
 				
 				ImageIcon iconic = new ImageIcon(jise.class.getResource("icon.jpg"));
-				iconic.setDescription("Made by Jesse\n18 years old\nMarch 02 2018\n\n\nCalculator 1.0\n\n");
+				iconic.setDescription("Made by Me\n18 yAGE\nMM/DD/YY\n\n\nCalculator 1.0\n\n");
 				JFrame abt = new JFrame();
 				JOptionPane.showMessageDialog(abt, iconic.getDescription(), "About", JOptionPane.WARNING_MESSAGE, iconic);
 				abt.setBounds(0,0, 90,90);
@@ -887,7 +887,7 @@ public class mainActivity {
 			public void actionPerformed(ActionEvent e) {
 				mValueOne=0;
 				mValueTwo=0;
-				mValueAnswer=1;
+				mValueAnswer=0;
 				textField_Top.setText(null);
 				textField_Bottom.setText(null);
 				textField_Stacks.setText(null);
