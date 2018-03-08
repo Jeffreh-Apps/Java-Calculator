@@ -1,3 +1,5 @@
+package n;
+
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
@@ -26,7 +28,7 @@ import java.awt.Toolkit;
 
 public class mainActivity {
 
-	private JFrame frmFuckingCalculator;
+	private JFrame layoutField;
 	private static JTextField textField_Bottom;
 	private static JTextField textField_Top;
 
@@ -52,7 +54,7 @@ public class mainActivity {
 			public void run() {
 				try {
 					mainActivity window = new mainActivity();
-					window.mainActivity.setVisible(true);
+					window.layoutField.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
@@ -65,7 +67,7 @@ public class mainActivity {
 	 */
 	public mainActivity() {
 		initialize();
-		cs();
+		//cs();
 	}
 
 	/**
