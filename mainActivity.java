@@ -52,7 +52,7 @@ public class mainActivity {
 			public void run() {
 				try {
 					mainActivity window = new mainActivity();
-					window.frmFuckingCalculator.setVisible(true);
+					window.mainActivity.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
