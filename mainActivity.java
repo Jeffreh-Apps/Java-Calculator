@@ -662,7 +662,6 @@ public class mainActivity {
 		equal.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				mValueTwo=Float.parseFloat(textField_Stacks.getText()+"");
-				//textField_1.setText(textField_1.getText().toString()+textField.getText().toString()+"");
 				mValueAnswer=mValueOne+mValueTwo;
 				textField_Bottom.setText(mValueAnswer+"");
 				   textField_Stacks.setText(null);
@@ -856,7 +855,7 @@ public class mainActivity {
 			
 			public void actionPerformed(ActionEvent e) {
 				
-				ImageIcon iconic = new ImageIcon(mainActivity.class.getResource("icon.jpg"));
+				ImageIcon iconic = new ImageIcon(mainActivity.class.getResource(""/*"icon.jpg"*/));
 				iconic.setDescription("Made by Me\n18 yAGE\nMM/DD/YY\n\n\nCalculator 1.0\n\n");
 				JFrame abt = new JFrame();
 				JOptionPane.showMessageDialog(abt, iconic.getDescription(), "About", JOptionPane.WARNING_MESSAGE, iconic);
