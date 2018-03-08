@@ -856,7 +856,7 @@ public class mainActivity {
 			
 			public void actionPerformed(ActionEvent e) {
 				
-				ImageIcon iconic = new ImageIcon(jise.class.getResource("icon.jpg"));
+				ImageIcon iconic = new ImageIcon(mainActivity.class.getResource("icon.jpg"));
 				iconic.setDescription("Made by Me\n18 yAGE\nMM/DD/YY\n\n\nCalculator 1.0\n\n");
 				JFrame abt = new JFrame();
 				JOptionPane.showMessageDialog(abt, iconic.getDescription(), "About", JOptionPane.WARNING_MESSAGE, iconic);
